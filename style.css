@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(144, 156, 160);
+    background-image: url('tft2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+  }
+  h1 {
+    
+    background-color: aquamarine;
+    color: rgb(19, 19, 65);
+    font-size: 38px;
+    letter-spacing: 0.1cm;
+    text-align: center;
+  }
+
+  h2{
+    color: black;
+    font-size: 58px;
+    letter-spacing: 1cm;
+    text-align: center;
+  }
+
+ p {
+    font-size: 18px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+button{
+    transform: scale3d();
+}
