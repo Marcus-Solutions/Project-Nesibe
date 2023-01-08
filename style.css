@@ -89,7 +89,10 @@ box-shadow: 0 0 5px #03e9f4,
 position: absolute;
 display: block;
 }
-.login-box a span:nth-child(1){
+.login-box a span:nth-child(1
+)
+
+{
 top: 0;
 left: -100%;
 width: 100%;
@@ -109,7 +112,6 @@ animation: btn-anim1 1s linear infinite;
   h2{
     color: rgb(3, 70, 47);
     font-size: 38px;
-    letter-spacing: 1cm;
     text-align: center;
   }
 
@@ -153,7 +155,7 @@ animation: btn-anim1 1s linear infinite;
     }
   .button{
       position:relative;
-      width:127px;
+      width:100px;
       height:52px;
       font-size:40px;
       background-color:#202231;
@@ -194,7 +196,62 @@ transition-delay: 5s;
     font-size: 18px;
     font-family: Verdana, Tahoma, sans-serif;
 }
+.sidebar {
+  position:fixed;
+  top:0;
+  left:0;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 250px;
+  height: 100px;
+  padding: 40px, 10px, 30px, 10px;
+border-right: 1px solid #2f3336;
+}
+.sidebar-header {
+  width: 100px;
+  margin-bottom: 16px;
+}
+.logo-img {
+  width: 62px;
+  margin-left: 10px;
+}
+.sidebar button{
+height: 50px;
+background: transparent;
+border: 0;
+padding: 0;
+font-family:inherit;
+cursor:pointer;
+text-align: left;
+ } 
+.sidebar button > span{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  height:40px;
+  padding: 0, 16px, 0, 12px;
+  border-radius: 24px;
+  line-height: 1;
+}
+.sidebar button:hover > span{
+  background: rgba(255, 255, 255, 0.08);
+}
+.sidebar button i {
+  position: relative;
+  font-size: smaller;
+  transition: 0.5s;
+}
+.sidebar > nav{
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 
+.sidebar > nav button:last-child{
+  margin-top: auto;
+} 
 button{
  width:277px;
       height:100px;
