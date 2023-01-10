@@ -197,7 +197,7 @@ transition-delay: 5s;
     font-family: Verdana, Tahoma, sans-serif;
 }
 .sidebar {
-  position:fixed;
+  position:relative;
   top:0;
   left:0;
   display:flex;
@@ -246,18 +246,18 @@ text-align: left;
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 50%;
 }
 
 .sidebar > nav button:last-child{
   margin-top: auto;
 } 
 button{
- width:277px;
-      height:100px;
-      font-size:40px;
+ width:27px;
+      height:90px;
+      font-size:25px;
       background-color:black;
-      color:#755555;
+      color:#198005;
       border:none;
       border-radius:40px;
       cursor:pointer;
