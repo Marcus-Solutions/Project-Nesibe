@@ -124,11 +124,11 @@ animation: btn-anim1 1s linear infinite;
   background-color: #141619;
   color: #f6f5f9;
   box-shadow: 1 1px 10;
-  rgba :hover(0, 0, 0, 1);
+  rgba :hover(0, 0, 0, 0.8);
   transform: translate(8px);
   opacity:1;
   visibility: visible;
-  animation: fade 14s linear forwards;
+  animation:  linear forwards;
   }
   .progress {
   position: absolute;
