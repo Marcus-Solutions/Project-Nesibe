@@ -44,17 +44,17 @@ position: static;
 
 .login-box .user-box input{
 width: 100px;
-padding: 10px 0;
+padding: 1px 10;
 font-size: 16px;
 color: #fff;
-margin-bottom: 30px;
+margin-bottom: 40px;
 border: none;
 border-bottom: 1px solid #fff;
 outline: none;
 background: transparent;
 }
 .login-box .user-box label{
-position: absolute;
+position: static;
 top:0;
 left:0;
 padding: 10px 0;
@@ -99,7 +99,7 @@ box-shadow: 0 0 5px #03e9f4,
 position: absolute;
 display: block;
 }
-.login-box a span:nth-child(1
+.login-box a span:nth-child(2
 )
 
 {
@@ -140,13 +140,13 @@ animation: progress 1s linear infinite;
   visibility: visible;
   animation:  linear forwards;
   }
-  .progress1 {
+  .notification .progress1 {
   position: absolute;
   left: 15px;
   bottom: 15px;
-  width: 14px;
+  width: 84px;
   height: 5px;
-  transform: translate(120px);
+  transform: translate(12px);
   background-image:
   linear-gradient(to left, #290bdb, #3250bf);
   border-radius: 4px;
@@ -176,16 +176,7 @@ animation: progress 1s linear infinite;
       transition:width 2s,
       border-radius 4px;
   }
-  button {
-  position:relative;
-  top:50%;
-  left:15%;
-  transform: translate(-50%, -50% );
-  transition: opacity 0;
-  }
-
-
-
+ 
   .button:focus{
   width:50px;
   background-color: rgb(96, 233, 219);
