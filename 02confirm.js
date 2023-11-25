@@ -7,7 +7,7 @@ document.getElementById("booking-form").addEventListener("submit", function(even
     var phone = document.getElementById("phone").value;
     var date = document.getElementById("date").value;
     var message = document.getElementById("message").value;
-    
+    var error = document.getElementById("error").value;
     // TODO: Implement booking logic
     
     alert("Booking successful! We will contact you soon."); // Temporary message for demonstration purposes
